@@ -12,8 +12,10 @@ public class ModItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, PestArzt_Discs.MOD_ID);
 
     public static final RegistryObject<Item> BadGay = ITEMS.register("badgay",
-            ()->new Item(new Item.Properties().tab(ModCreativeModeTab.PESTARZT_TAB)));
+            ()->new Item(new Item.Properties().stacksTo(1).tab(ModCreativeModeTab.PESTARZT_TAB)));
     public static final RegistryObject<Item> SeaOfCum = ITEMS.register("seaofcum",
+            ()->new Item(new Item.Properties().stacksTo(1).tab(ModCreativeModeTab.PESTARZT_TAB)));
+    public static final RegistryObject<Item> DiscHolder = ITEMS.register("discholder",
             ()->new Item(new Item.Properties().tab(ModCreativeModeTab.PESTARZT_TAB)));
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);

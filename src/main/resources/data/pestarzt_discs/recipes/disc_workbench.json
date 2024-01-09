@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "SDS",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "tag": "minecraft:planks"
+    },
+    "D": {
+      "item":"pestarzt_discs:discholder"
+    }
+  },
+  "result": {
+    "item": "pestarzt_discs:disc_workbench"
+  }
+}
