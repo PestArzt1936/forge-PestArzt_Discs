@@ -1,6 +1,8 @@
 {
   "item.pestarzt_discs.badgay": "Music disc",
+  "item.pestarzt_discs.badgay.desc": "Bad gay",
   "item.pestarzt_discs.seaofcum": "Music disc",
+  "item.pestarzt_discs.seaofcum.desc": "Sea of cum",
   "item.pestarzt_discs.discholder": "Disc holder",
   "block.pestarzt_discs.disc_workbench": "Discs' workbench",
   "itemGroup.PestArzt's discs": "PestArzt's discs"

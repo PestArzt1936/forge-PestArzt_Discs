@@ -16,6 +16,8 @@ public class ModSounds {
     public static final RegistryObject<SoundEvent> WOOD_WALK = registerSoundEvent("wood_walk");
     public static final RegistryObject<SoundEvent> WOOD_PLACE = registerSoundEvent("wood_place");
     public static final RegistryObject<SoundEvent> WOOD_HIT = registerSoundEvent("wood_hit");
+    public static final RegistryObject<SoundEvent> SeaOfCum = registerSoundEvent("seaofcum");
+    public static final RegistryObject<SoundEvent> BadGay = registerSoundEvent("badgay");
 
     public static final ForgeSoundType WOOD_SOUNDS = new ForgeSoundType(1f,1f,ModSounds.WOOD_BREAKING,ModSounds.WOOD_WALK,ModSounds.WOOD_PLACE,ModSounds.WOOD_HIT,ModSounds.WOOD_WALK);
     private static RegistryObject<SoundEvent> registerSoundEvent(String name){

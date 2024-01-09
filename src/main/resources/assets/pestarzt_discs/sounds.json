@@ -22,5 +22,21 @@
     "sounds": [
       "pestarzt_discs:wood_walk1","pestarzt_discs:wood_walk2","pestarzt_discs:wood_walk3","pestarzt_discs:wood_walk4","pestarzt_discs:wood_walk5","pestarzt_discs:wood_walk6"
     ]
+  },
+  "seaofcum": {
+    "sounds":[
+      {
+        "name": "pestarzt_discs:seaofcum",
+        "stream": true
+      }
+    ]
+  },
+  "badgay": {
+    "sounds": [
+      {
+        "name": "pestarzt_discs:badgay",
+        "stream": true
+      }
+    ]
   }
 }
