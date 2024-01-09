@@ -1,6 +1,7 @@
 {
-  "parent": "block/cube_all",
+  "parent": "minecraft:block/cube_top",
   "textures": {
-    "all":"pestarzt_discs:block/disc_workbench"
+    "side": "pestarzt_discs:block/disc_workbench_side",
+    "top": "pestarzt_discs:block/disc_workbench_top"
   }
 }
