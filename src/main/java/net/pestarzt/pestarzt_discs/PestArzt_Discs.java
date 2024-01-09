@@ -11,6 +11,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.pestarzt.pestarzt_discs.block.ModBlocks;
 import net.pestarzt.pestarzt_discs.item.ModItems;
+import net.pestarzt.pestarzt_discs.sound.ModSounds;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml filesdsaasda
@@ -25,7 +26,7 @@ public class PestArzt_Discs
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
-
+        ModSounds.register(modEventBus);
         modEventBus.addListener(this::commonSetup);
 
         MinecraftForge.EVENT_BUS.register(this);

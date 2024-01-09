@@ -1,0 +1,26 @@
+{
+  "wood_breaking": {
+    "subtitle": "sounds.pestarzt_discs.wood_breaking",
+    "sounds": [
+      "pestarzt_discs:wood_breaking1","pestarzt_discs:wood_breaking2"
+    ]
+  },
+  "wood_hit": {
+    "subtitle": "sounds.pestarzt_discs.wood_hit",
+    "sounds": [
+      "pestarzt_discs:wood_hit1","pestarzt_discs:wood_hit2","pestarzt_discs:wood_hit3","pestarzt_discs:wood_hit4","pestarzt_discs:wood_hit5","pestarzt_discs:wood_hit6"
+    ]
+  },
+  "wood_place": {
+    "subtitle": "sounds.pestarzt_discs.wood_place",
+    "sounds": [
+      "pestarzt_discs:wood_place1","pestarzt_discs:wood_place2"
+    ]
+  },
+  "wood_walk": {
+    "subtitle": "sounds.pestarzt_discs.wood_walk",
+    "sounds": [
+      "pestarzt_discs:wood_walk1","pestarzt_discs:wood_walk2","pestarzt_discs:wood_walk3","pestarzt_discs:wood_walk4","pestarzt_discs:wood_walk5","pestarzt_discs:wood_walk6"
+    ]
+  }
+}
