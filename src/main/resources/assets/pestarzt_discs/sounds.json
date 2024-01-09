@@ -38,5 +38,45 @@
         "stream": true
       }
     ]
+  },
+  "password1488": {
+    "sounds": [
+      {
+        "name": "pestarzt_discs:password1488",
+        "stream": true
+      }
+    ]
+  },
+  "gachi_burger": {
+    "sounds": [
+      {
+        "name": "pestarzt_discs:gachi_burger",
+        "stream": true
+      }
+    ]
+  },
+  "gay_shit": {
+    "sounds": [
+      {
+        "name": "pestarzt_discs:gay_shit",
+        "stream": true
+      }
+    ]
+  },
+  "homo_mode": {
+    "sounds": [
+      {
+        "name": "pestarzt_discs:homo_mode",
+        "stream": true
+      }
+    ]
+  },
+  "mirror": {
+    "sounds": [
+      {
+        "name": "pestarzt_discs:mirror",
+        "stream": true
+      }
+    ]
   }
 }

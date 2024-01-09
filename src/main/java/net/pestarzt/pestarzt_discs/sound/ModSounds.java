@@ -18,6 +18,11 @@ public class ModSounds {
     public static final RegistryObject<SoundEvent> WOOD_HIT = registerSoundEvent("wood_hit");
     public static final RegistryObject<SoundEvent> SeaOfCum = registerSoundEvent("seaofcum");
     public static final RegistryObject<SoundEvent> BadGay = registerSoundEvent("badgay");
+    public static final RegistryObject<SoundEvent> Password1488 = registerSoundEvent("password1488");
+    public static final RegistryObject<SoundEvent> Gachi_burger = registerSoundEvent("gachi_burger");
+    public static final RegistryObject<SoundEvent> Gay_shit = registerSoundEvent("gay_shit");
+    public static final RegistryObject<SoundEvent> Homo_mode = registerSoundEvent("homo_mode");
+    public static final RegistryObject<SoundEvent> Mirror = registerSoundEvent("mirror");
 
     public static final ForgeSoundType WOOD_SOUNDS = new ForgeSoundType(1f,1f,ModSounds.WOOD_BREAKING,ModSounds.WOOD_WALK,ModSounds.WOOD_PLACE,ModSounds.WOOD_HIT,ModSounds.WOOD_WALK);
     private static RegistryObject<SoundEvent> registerSoundEvent(String name){
