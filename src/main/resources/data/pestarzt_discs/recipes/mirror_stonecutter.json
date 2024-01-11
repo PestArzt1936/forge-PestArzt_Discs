@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "tag": "minecraft:terracotta"
+  },
+  "result": "pestarzt_discs:mirror",
+  "group": "stuff",
+  "count": 1
+}
