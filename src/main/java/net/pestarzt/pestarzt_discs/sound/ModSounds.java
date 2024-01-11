@@ -23,6 +23,13 @@ public class ModSounds {
     public static final RegistryObject<SoundEvent> Gay_shit = registerSoundEvent("gay_shit");
     public static final RegistryObject<SoundEvent> Homo_mode = registerSoundEvent("homo_mode");
     public static final RegistryObject<SoundEvent> Mirror = registerSoundEvent("mirror");
+    public static final RegistryObject<SoundEvent> Dancer = registerSoundEvent("dancer");
+    public static final RegistryObject<SoundEvent> Black_anal = registerSoundEvent("black_anal");
+    public static final RegistryObject<SoundEvent> Elproblemo = registerSoundEvent("elproblemo");
+    public static final RegistryObject<SoundEvent> RidingOnGayParty = registerSoundEvent("riding_on_gay_party");
+    public static final RegistryObject<SoundEvent> ForTheCash = registerSoundEvent("forthecash");
+    public static final RegistryObject<SoundEvent> Asphalt8 = registerSoundEvent("asphalt8");
+    public static final RegistryObject<SoundEvent> OnTheDick = registerSoundEvent("onthedick");
 
     public static final ForgeSoundType WOOD_SOUNDS = new ForgeSoundType(1f,1f,ModSounds.WOOD_BREAKING,ModSounds.WOOD_WALK,ModSounds.WOOD_PLACE,ModSounds.WOOD_HIT,ModSounds.WOOD_WALK);
     private static RegistryObject<SoundEvent> registerSoundEvent(String name){

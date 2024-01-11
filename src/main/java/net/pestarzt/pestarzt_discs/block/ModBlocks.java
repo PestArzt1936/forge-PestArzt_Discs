@@ -11,6 +11,8 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.pestarzt.pestarzt_discs.PestArzt_Discs;
+import net.pestarzt.pestarzt_discs.block.custom.DoesntWorkBlock;
+import net.pestarzt.pestarzt_discs.block.custom.DoesntWorkBlock;
 import net.pestarzt.pestarzt_discs.item.ModCreativeModeTab;
 import net.pestarzt.pestarzt_discs.item.ModItems;
 import net.pestarzt.pestarzt_discs.sound.ModSounds;
@@ -29,7 +31,7 @@ public class ModBlocks {
         return toReturn;
     }
     private static <T extends Block> RegistryObject<Item> registerBlockItem(String name,RegistryObject<T> block,CreativeModeTab tab){
-        return ModItems.ITEMS.register(name,()->new BlockItem(block.get(),new Item.Properties().tab(tab)));
+        return ModItems.ITEMS.register(name,()->new DoesntWorkBlock(block.get(),new Item.Properties().tab(tab)));
     }
 
     public static void register(IEventBus eventBus){
