@@ -134,5 +134,53 @@
         "stream": true
       }
     ]
+  },
+  "gaynomo": {
+    "sounds": [
+      {
+        "name": "pestarzt_discs:gaynomo",
+        "stream": true
+      }
+    ]
+  },
+  "cumeater": {
+    "sounds": [
+      {
+        "name": "pestarzt_discs:cumeater",
+        "stream": true
+      }
+    ]
+  },
+  "pidazino": {
+    "sounds": [
+      {
+        "name": "pestarzt_discs:pidazino",
+        "stream": true
+      }
+    ]
+  },
+  "ladypidor": {
+    "sounds": [
+      {
+        "name": "pestarzt_discs:ladypidor",
+        "stream": true
+      }
+    ]
+  },
+  "dontdancing": {
+    "sounds": [
+      {
+        "name": "pestarzt_discs:dontdancing",
+        "stream": true
+      }
+    ]
+  },
+  "hauntedpidor": {
+    "sounds": [
+      {
+        "name": "pestarzt_discs:hauntedpidor",
+        "stream": true
+      }
+    ]
   }
 }

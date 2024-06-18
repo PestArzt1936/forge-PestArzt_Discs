@@ -30,6 +30,13 @@ public class ModSounds {
     public static final RegistryObject<SoundEvent> ForTheCash = registerSoundEvent("forthecash");
     public static final RegistryObject<SoundEvent> Asphalt8 = registerSoundEvent("asphalt8");
     public static final RegistryObject<SoundEvent> OnTheDick = registerSoundEvent("onthedick");
+    public static final RegistryObject<SoundEvent> GayNoMo = registerSoundEvent("gaynomo");
+    public static final RegistryObject<SoundEvent> CumEater = registerSoundEvent("cumeater");
+    public static final RegistryObject<SoundEvent> Pidazino = registerSoundEvent("pidazino");
+    public static final RegistryObject<SoundEvent> LadyPidor = registerSoundEvent("ladypidor");
+    public static final RegistryObject<SoundEvent> DontDancing = registerSoundEvent("dontdancing");
+    public static final RegistryObject<SoundEvent> HauntedPidor = registerSoundEvent("hauntedpidor");
+
 
     public static final ForgeSoundType WOOD_SOUNDS = new ForgeSoundType(1f,1f,ModSounds.WOOD_BREAKING,ModSounds.WOOD_WALK,ModSounds.WOOD_PLACE,ModSounds.WOOD_HIT,ModSounds.WOOD_WALK);
     private static RegistryObject<SoundEvent> registerSoundEvent(String name){

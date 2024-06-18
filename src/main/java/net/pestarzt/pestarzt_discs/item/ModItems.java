@@ -43,6 +43,18 @@ public class ModItems {
             ()->new RecordItem(8, ModSounds.Asphalt8, new Item.Properties().stacksTo(1).tab(ModCreativeModeTab.PESTARZT_TAB),2720));
     public static final RegistryObject<Item> OnTheDick = ITEMS.register("onthedick",
             ()->new RecordItem(8, ModSounds.OnTheDick, new Item.Properties().stacksTo(1).tab(ModCreativeModeTab.PESTARZT_TAB),2540));
+    public static final RegistryObject<Item> GayNoMo = ITEMS.register("gaynomo",
+            ()->new RecordItem(8, ModSounds.GayNoMo, new Item.Properties().stacksTo(1).tab(ModCreativeModeTab.PESTARZT_TAB),2360));
+    public static final RegistryObject<Item> CumEater = ITEMS.register("cumeater",
+            ()->new RecordItem(8, ModSounds.CumEater, new Item.Properties().stacksTo(1).tab(ModCreativeModeTab.PESTARZT_TAB),2700));
+    public static final RegistryObject<Item> Pidazino = ITEMS.register("pidazino",
+            ()->new RecordItem(8, ModSounds.Pidazino, new Item.Properties().stacksTo(1).tab(ModCreativeModeTab.PESTARZT_TAB),1000));
+    public static final RegistryObject<Item> LadyPidor = ITEMS.register("ladypidor",
+            ()->new RecordItem(8, ModSounds.LadyPidor, new Item.Properties().stacksTo(1).tab(ModCreativeModeTab.PESTARZT_TAB),4600));
+    public static final RegistryObject<Item> DontDancing = ITEMS.register("dontdancing",
+            ()->new RecordItem(8, ModSounds.DontDancing, new Item.Properties().stacksTo(1).tab(ModCreativeModeTab.PESTARZT_TAB),3820));
+    public static final RegistryObject<Item> HauntedPidor = ITEMS.register("hauntedpidor",
+            ()->new RecordItem(8, ModSounds.HauntedPidor, new Item.Properties().stacksTo(1).tab(ModCreativeModeTab.PESTARZT_TAB),2800));
     public static final RegistryObject<Item> DiscHolder = ITEMS.register("discholder",
             ()->new DoesntWork(new Item.Properties().tab(ModCreativeModeTab.PESTARZT_TAB)));
     public static void register(IEventBus eventBus){
